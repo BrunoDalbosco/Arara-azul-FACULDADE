@@ -114,3 +114,31 @@ footer .container a {
     border-radius: 10px;
     background-color: #1a73e8;
 }
+
+.paginacao {
+    text-align: center;
+    margin: 20px;
+
+}
+
+.paginacao ul {
+    list-style: none;
+    padding: 0;
+}
+
+.paginacao ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.paginacao ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.paginacao ul li a:hover {
+    background-color: #e0e0e0;
+}
